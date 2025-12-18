@@ -1,6 +1,6 @@
 ## Toolchain Selection
 
-Initial FPGA work was performed using smaller devices,
+Initial FPGA work was performed using smaller devices and open-source tooling,
 but development transitioned to Xilinx Artix-7 and Vivado
 to align with industry-standard defense and aerospace workflows.
 
