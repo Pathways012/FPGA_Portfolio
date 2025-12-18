@@ -12,6 +12,12 @@ as an introductory FPGA project.
 - Drive physical I/O using XDC constraints
 - Build and program a design using Vivado
 
+## Design Architecture
+The design consists of a clocked D flip-flop driving a single LED output.
+The LED state toggles on each active clock edge.
+
+![Block diagram of LED toggle D flip-flop design](img/block_diagram.PNG)
+
 ## Tools & Hardware
 - FPGA Board: Digilent Basys 3 (Artix-7)
 - Toolchain: Xilinx Vivado
@@ -33,14 +39,3 @@ This project helped me learn:
 - Fundamental synchronous digital design
 - Proper use of clocked logic
 - Pin constraint management
-
-## Design Architecture
-The design consists of a clocked D flip-flop driving a single LED output.
-The LED state toggles on each active clock edge.
-
-![Block diagram of LED toggle D flip-flop design](img/block_diagram.PNG)
-
-Key points:
-- Uses the onboard 100 MHz clock
-- Fully synchronous logic
-- Output mapped via XDC constraints
