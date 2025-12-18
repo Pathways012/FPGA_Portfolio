@@ -33,3 +33,14 @@ This project helped me learn:
 - Fundamental synchronous digital design
 - Proper use of clocked logic
 - Pin constraint management
+
+## Design Architecture
+The design consists of a clocked D flip-flop driving a single LED output.
+The LED state toggles on each active clock edge.
+
+![Block diagram of LED toggle D flip-flop design](img/block_diagram.png)
+
+Key points:
+- Uses the onboard 100 MHz clock
+- Fully synchronous logic
+- Output mapped via XDC constraints
