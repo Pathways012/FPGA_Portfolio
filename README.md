@@ -1,7 +1,7 @@
 # FPGA Development Portfolio (Basys 3 / Vivado)
 
 ## Overview
-I am an FPGA developer in training focused on VHDL/Verilog, DSP, and secure hardware design.
+I am an FPGA developer-in-training focused on VHDL/Verilog, DSP, and secure hardware design.
 Building a public FPGA portfolio with projects ranging from basic RTL designs to
 defense-relevant applications such as encrypted communications and radar signal processing.
 Actively preparing for aerospace/defense FPGA roles and clearance-sponsored opportunities.
