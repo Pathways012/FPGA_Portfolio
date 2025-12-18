@@ -14,7 +14,7 @@ as an introductory FPGA project.
 
 ## Design Architecture
 The design consists of a clocked D flip-flop driving a single LED output.
-The LED state toggles on each active clock edge.
+The LED state toggles on each falling edge of the switch.
 
 ![Block diagram of LED toggle D flip-flop design](img/block_diagram.PNG)
 
@@ -26,7 +26,7 @@ The LED state toggles on each active clock edge.
 
 ## Design Description
 - The design uses the onboard 100 MHz clock.
-- A D flip-flop toggles the LED state on each active clock edge.
+- A D flip-flop toggles the LED state on each falling edge of the switch.
 - Output is mapped to an onboard LED via XDC constraints.
 
 ## Verification
