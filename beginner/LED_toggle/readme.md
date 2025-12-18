@@ -38,7 +38,7 @@ This project helped me learn:
 The design consists of a clocked D flip-flop driving a single LED output.
 The LED state toggles on each active clock edge.
 
-![Block diagram of LED toggle D flip-flop design](img/block_diagram.png)
+![Block diagram of LED toggle D flip-flop design](img/block_diagram.PNG)
 
 Key points:
 - Uses the onboard 100 MHz clock
