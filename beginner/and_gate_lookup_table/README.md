@@ -22,7 +22,7 @@ combinational behavior as it is implemented in FPGA fabric.
 The AND function is implemented using a lookup table that maps
 the two input signals to a single output based on their truth table.
 
-![Block diagram of LUT-based AND gate](img/block_diagram.png)
+![Block diagram of LUT-based AND gate](img/block_diagram.PNG)
 
 Truth table:
 
@@ -38,7 +38,7 @@ Functional verification was performed using Vivado simulation.
 The waveform below shows the output transitioning high only when
 both inputs are asserted.
 
-![Simulation waveform of LUT-based AND gate](img/waveform_sim.png)
+![Simulation waveform of LUT-based AND gate](img/simulation_waveform.PNG)
 
 ## FPGA & Industry Relevance
 This project demonstrates:
