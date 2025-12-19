@@ -37,9 +37,8 @@ The system is composed of the following modules:
 
 Key behavior:
 - The LFSR runs continuously
-- When the LFSR overflows (or reaches a terminal condition),
-  a blink event is generated
-- The demultiplexer selects which LED receives the blink signal
+- When the LFSR is full of zeroes send a "done" pulse
+- The demultiplexer selects which LED turns on when the "done" pulse is received
 
 ---
 
