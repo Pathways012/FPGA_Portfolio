@@ -35,11 +35,10 @@ The design consists of three primary modules:
 - `debouncer_v2_top`  
   Connects the debounced switch signal to the LED toggle module
 
-At the top level, the block diagram looks like the following:
-
+## Top Module
 ![Block diagram showing the top-level module](img/top_level_block_diagram.PNG)
 
-And inside the top-level:
+## Internal Submodules
 ![Block diagram showing debouncer feeding LED toggle](img/block_diagram.PNG)
 
 Key points:
