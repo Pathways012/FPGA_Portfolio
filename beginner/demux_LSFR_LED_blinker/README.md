@@ -32,7 +32,7 @@ The system is composed of the following modules:
 - `four_to_one_demux`  
   Routes the blink signal to one of four LEDs
 
-- `demux_LSFR_LED_blinker_top`  
+- `demux_LSFR_LED_blinker`  
   Coordinates LFSR overflow detection and LED selection
 
 ## Top module
