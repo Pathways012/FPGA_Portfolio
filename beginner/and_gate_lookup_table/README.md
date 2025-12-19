@@ -36,7 +36,7 @@ Truth table:
 ## Simulation & Verification
 Functional verification was performed using Vivado simulation.
 The waveform below shows the output transitioning high only when
-both inputs are asserted.
+both inputs are high.
 
 ![Simulation waveform of LUT-based AND gate](img/simulation_waveform.PNG)
 
