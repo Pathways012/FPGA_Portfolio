@@ -62,7 +62,7 @@ and corresponding LED output activity.
 ---
 
 ## FPGA & Industry Relevance
-This project demonstrates several FPGA-relevant concepts:
+This project helped me learn:
 
 - Pseudo-random sequence generation using LFSRs
 - Timing control without fixed counters
@@ -70,5 +70,4 @@ This project demonstrates several FPGA-relevant concepts:
 - Modular, hierarchical RTL design
 
 LFSRs are widely used in FPGA systems for timing variation,
-test pattern generation, and control logic in aerospace,
-defense, and communications systems.
+test pattern generation, and control logic.
