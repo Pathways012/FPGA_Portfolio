@@ -54,7 +54,7 @@ and LED selection.
 
 The LFSR is intentionally implemented as a fixed 24-bit register to model a specific timing behavior. Simulation focuses on functional correctness rather than parameterized scaling.
 
-To improve simulation observability, the LFSR generates a single-cycle pulse on the falling edge of the MSB rather than full register rollover. The limited simulation time Vivado allows was too short to see the module working on human scales of time.
+To improve simulation observability, the LFSR generates a single-cycle pulse on the falling edge of the MSB rather than full register rollover. The limited simulation time Vivado allows is too short to see the module working on human scales of time.
 
 Therefore, science was conducted.
 Said science resulted in two changes for the purpose of capturing a simulated waveform: increasing simulated clock speed, and the detection of the falling edge of the MSB for pulse generation instead of the full register rollover present for human speed interaction.
