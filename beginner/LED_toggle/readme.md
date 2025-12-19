@@ -20,7 +20,7 @@ The LED state toggles on each falling edge of the switch.
 
 ## Behavior
 Each time the falling edge of the switch is detected, the D flip-flop (and therefore the LED)
-will toggle.
+will toggle on the following clock cycle.
 ![Simulation waveform of the LED_toggle module in action](img/simulation_waveform.PNG)
 
 ## Tools & Hardware
