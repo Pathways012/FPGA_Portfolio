@@ -46,7 +46,7 @@ Key behavior:
 Simulation was performed in Vivado to verify correct LFSR behavior
 and LED selection.
 
-The LFSR width is parameterized using a generic. For simulation, a reduced width is used to accelerate verification, while synthesis uses the default value.
+The LFSR is intentionally implemented as a fixed 24-bit register to model a specific timing behavior. Simulation focuses on functional correctness rather than parameterized scaling.
 
 The waveform below shows the LFSR state evolution, overflow detection,
 and corresponding LED output activity.
