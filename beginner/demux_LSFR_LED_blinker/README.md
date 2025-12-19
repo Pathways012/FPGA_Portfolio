@@ -25,7 +25,9 @@ multi-output control on the Basys 3 FPGA.
 The system is composed of the following modules:
 
 - `linear_feedback_shift_register`  
-  Generates a pseudo-random sequence used to control blink timing
+  Generates a pseudo-random sequence used to control blink timing.
+
+  Has pin o_LSFR_data for reading data from all registers at once. Not used in this design.
 
 - `four_to_one_demux`  
   Routes the blink signal to one of four LEDs
@@ -33,7 +35,11 @@ The system is composed of the following modules:
 - `demux_LSFR_LED_blinker_top`  
   Coordinates LFSR overflow detection and LED selection
 
-![Block diagram showing LFSR-driven demux LED control](img/block_diagram.PNG)
+## Top module
+![Block diagram showing the top-level module](img/top_block_diagram.PNG)
+
+## Internal Submodules
+![Block diagram showing LFSR-driven demux LED control](img/internal_block_diagram.PNG)
 
 Key behavior:
 - The LFSR runs continuously
