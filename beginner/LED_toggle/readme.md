@@ -17,6 +17,10 @@ The design consists of a clocked D flip-flop driving a single LED output.
 The LED state toggles on each falling edge of the switch.
 
 ![Block diagram of LED toggle D flip-flop design](img/block_diagram.PNG)
+
+## Behavior
+Each time the falling edge of the switch is detected, the D flip-flop (and therefore the LED)
+will toggle.
 ![Simulation waveform of the LED_toggle module in action](img/simulation_waveform.PNG)
 
 ## Tools & Hardware
