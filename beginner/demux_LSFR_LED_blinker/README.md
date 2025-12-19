@@ -45,6 +45,7 @@ Key behavior:
 ## Simulation & Verification
 Simulation was performed in Vivado to verify correct LFSR behavior
 and LED selection.
+The LFSR width is parameterized using a generic. For simulation, a reduced width is used to accelerate verification, while synthesis uses the default value.
 The waveform below shows the LFSR state evolution, overflow detection,
 and corresponding LED output activity.
 
