@@ -10,7 +10,7 @@ multi-output control on the Basys 3 FPGA.
 ## Objectives
 - Implement a 24-bit LFSR for pseudo-random sequencing
 - Use a 4-to-1 demultiplexer to control multiple outputs
-- Generate non-uniform blink timing without a simple counter
+- Generate non-uniform blink timing without a simple counter (less resources needed, but also less precise timing)
 - Integrate multiple modules into a cohesive system
 
 ## Tools & Hardware
