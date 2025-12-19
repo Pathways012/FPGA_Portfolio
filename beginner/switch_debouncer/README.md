@@ -65,5 +65,4 @@ This project demonstrates several real-world FPGA concepts:
 - Hierarchical design and module reuse
 - Clean separation between signal processing and control logic
 
-These concepts are fundamental in embedded, aerospace,
-and defense FPGA systems where external inputs are common.
+These concepts are useful in systems with noisy external inputs.
