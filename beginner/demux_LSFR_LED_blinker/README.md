@@ -59,7 +59,7 @@ To improve simulation observability, the LFSR generates a single-cycle pulse on 
 Therefore, science was conducted.
 Said science resulted in two changes for the purpose of capturing a simulated waveform: increasing simulated clock speed, and the detection of the falling edge of the MSB for pulse generation instead of the full register rollover present for human speed interaction.
 
-The waveform below shows the MSB falling edge detection and corresponding LED output activity.
+The waveform below shows the pulses created from MSB falling edge detection and corresponding LED output activity.
 
 ![Simulation waveform showing LFSR MSB falling edge detection and LED blinking](img/simulated_waveform.PNG)
 
