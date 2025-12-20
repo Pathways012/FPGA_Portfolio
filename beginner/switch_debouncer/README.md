@@ -58,7 +58,7 @@ while the debounced output transitions cleanly.
 ---
 
 ## FPGA & Industry Relevance
-This project demonstrates several real-world FPGA concepts:
+This project demonstrates several FPGA concepts:
 
 - Conditioning asynchronous external inputs
 - Mitigating signal noise in hardware
