@@ -40,7 +40,7 @@ will toggle on the following clock cycle.
 - Timing verified through Vivado implementation reports.
 
 ## Defense & Industry Relevance
-This project helped me learn:
+This project demonstrates:
 - Fundamental synchronous digital design
 - Proper use of clocked logic
 - Pin constraint management
