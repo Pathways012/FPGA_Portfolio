@@ -41,7 +41,7 @@ both inputs are high.
 ![Simulation waveform of LUT-based AND gate](img/simulation_waveform.PNG)
 
 ## FPGA & Industry Relevance
-This project helped me learn:
+This project demonstrates:
 - How combinational logic maps to FPGA LUTs
 - The relationship between Boolean logic and hardware implementation
 - Foundational concepts used in datapaths, control logic, and DSP designs
