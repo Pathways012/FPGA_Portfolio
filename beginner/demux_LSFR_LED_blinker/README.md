@@ -66,7 +66,7 @@ The waveform below shows the pulses created from MSB falling edge detection and 
 ---
 
 ## FPGA & Industry Relevance
-This project helped me learn:
+This project demonstrates:
 
 - Pseudo-random sequence generation using LFSRs
 - Timing control without fixed counters
