@@ -1,12 +1,12 @@
 # FPGA Development Portfolio (Basys 3 / Vivado)
 
 ## Overview
-I am an FPGA developer-in-training focused on VHDL/Verilog, DSP, and secure hardware design.
+I am an FPGA developer focused on VHDL/Verilog, DSP, and secure hardware design.
 Building a public FPGA portfolio with projects ranging from basic RTL designs to
 defense-relevant applications such as encrypted communications and radar signal processing.
 Actively preparing for aerospace/defense FPGA roles and clearance-sponsored opportunities.
 
-This repository is meant to document my progression in FPGA development using
+This repository documents my progression in FPGA development using
 Xilinx Artix-7 (Basys 3) and Vivado, with a focus on RTL design,
 verification, timing-aware implementation, and defense-relevant applications.
 
