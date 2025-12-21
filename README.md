@@ -10,7 +10,7 @@ This repository documents my progression in FPGA development using
 Xilinx Artix-7 (Basys 3) and Vivado, with a focus on RTL design,
 verification, timing-aware implementation, and defense-relevant applications.
 
-The goal is to have projects progress from foundational HDL concepts to
+The goal is to document projects progressing from foundational HDL concepts to
 signal processing and secure communications.
 
 ## Technical Focus Areas
