@@ -2,7 +2,7 @@
 
 ## Overview
 This project implements a **dual-port RAM** in VHDL, allowing two independent ports to access a shared memory resource concurrently.  
-The design demonstrates basic memory architecture, concurrent read/write access, and verification through simulation on the Basys 3 FPGA platform.
+The design demonstrates basic memory architecture, concurrent read/write access, and verification through simulation.
 
 The project focuses on correctness, clarity, and FPGA-friendly coding practices rather than maximum performance or parameterization.
 
@@ -13,7 +13,6 @@ The project focuses on correctness, clarity, and FPGA-friendly coding practices 
 - Support independent memory access on two ports
 - Demonstrate safe concurrent read/write behavior
 - Verify correct operation using a dedicated testbench
-- Organize RTL and simulation files using a clean project structure
 
 ---
 
