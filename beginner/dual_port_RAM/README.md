@@ -31,9 +31,6 @@ The system is composed of the following primary components:
   Implements a shared memory array with two independent access ports.  
   Each port has its own address, data input, write enable, and data output.
 
-- `testbench_dual_port_ram`  
-  A simulation testbench that applies read and write transactions on both ports to verify correct memory behavior.
-
 The RAM is written in a style that allows **Vivado to infer block RAM**, matching how on-chip memory is typically implemented in FPGA designs.
 
 ---
