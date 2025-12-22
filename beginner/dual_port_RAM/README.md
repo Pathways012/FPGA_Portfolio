@@ -32,7 +32,7 @@ The system is composed of the following primary components:
   Implements a shared memory array with two independent access ports.  
   Each port has its own address, data input, write enable, and data output.
 
-- `tb_dual_port_ram`  
+- `testbench_dual_port_ram`  
   A simulation testbench that applies read and write transactions on both ports to verify correct memory behavior.
 
 The RAM is written in a style that allows **Vivado to infer block RAM**, matching how on-chip memory is typically implemented in FPGA designs.
@@ -60,7 +60,8 @@ The testbench verifies:
 
 The focus of simulation is **functional correctness**, not long-duration timing or throughput analysis.
 
-The waveforms below show example read and write transactions occurring on both ports and the resulting memory outputs.
+The waveforms below show a small simulation of the dual-port RAM being filled with incremental values, being read, then an attempted simultaneous read/write
+at the end. For more detail, please see the comments in the testbench at /sim/testbench_dual_port_RAM.vhd
 
 ![Simulation waveform showing dual-port RAM read/write behavior](img/simulated_waveform.PNG)
 
