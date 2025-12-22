@@ -41,7 +41,7 @@ begin
   process is
   begin
     wait until r_clk = '1';
-    wait until r_clk = '1'; -- wait 2 clock cycles
+    wait until r_clk = '1'; -- wait until the 2nd rising edge of the clock
 
     -- Fill memory with an incrementing pattern
     for i in 0 to DEPTH-1 loop  -- loop through each memory address
