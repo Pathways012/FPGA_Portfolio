@@ -20,7 +20,7 @@ The project focuses on correctness, clarity, and FPGA-friendly coding practices 
 - **FPGA Board:** Digilent Basys 3 (Xilinx Artix-7)
 - **Toolchain:** Xilinx Vivado
 - **Language:** VHDL
-- **Constraints:** XDC (optional / future expansion)
+- **Constraints:** XDC
 
 ---
 
