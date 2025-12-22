@@ -31,8 +31,6 @@ The system is composed of the following primary components:
   Implements a shared memory array with two independent access ports.  
   Each port has its own address, data input, write enable, and data output.
 
-The RAM is written in a style that allows **Vivado to infer block RAM**, matching how on-chip memory is typically implemented in FPGA designs.
-
 ---
 
 ## Top-Level Module
@@ -52,7 +50,7 @@ Simulation was performed in Vivado to validate correct dual-port operation under
 The testbench verifies:
 - Independent writes on each port
 - Correct data reads from previously written addresses
-- Expected behavior when both ports access memory concurrently
+- Expected behavior when both ports access memory concurrently (in this case, undefined behavior)
 
 The focus of simulation is **functional correctness**, not long-duration timing or throughput analysis.
 
