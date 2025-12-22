@@ -52,7 +52,7 @@ begin
     end loop;
 
     -- Read out the incrementing pattern
-    r_write_address  <= (others => '0');    -- blank out the last write address
+    r_write_address  <= (others => '0');    -- reset the write address to 00
     r_write_data_valid <= '0';  -- signal to stop writing
     
     for i in 0 to DEPTH-1 loop  -- loop through each memory address again
