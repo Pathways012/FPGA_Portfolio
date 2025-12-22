@@ -46,7 +46,7 @@ begin
     -- Fill memory with an incrementing pattern
     for i in 0 to DEPTH-1 loop  -- loop through each memory address
       r_write_data_valid <= '1';    -- signal to write
-      wait until r_clk = '1';   -- wait 1 clock cycle
+      wait until r_clk = '1';   -- wait until the next rising edge of the clock
       r_write_data <= r_write_data + 1; -- write a number 1 bigger than the last
       r_write_address <= r_write_address + 1;   -- move to the next memory address
     end loop;
@@ -57,12 +57,12 @@ begin
     
     for i in 0 to DEPTH-1 loop  -- loop through each memory address again
       r_read_enable <= '1'; -- signal to read
-      wait until r_clk = '1';   -- wait 1 clock cycle
+      wait until r_clk = '1';   -- wait until the next rising edge of the clock
       r_read_address <= r_read_address + 1; -- move to the next memory address
     end loop;
 
     r_read_enable <= '0';   -- signal to stop reading
-    wait until r_clk = '1'; -- wait 3 clock cycles
+    wait until r_clk = '1'; -- wait until the 3rd rising edge of the clock from now
     wait until r_clk = '1';
     wait until r_clk = '1';
 
@@ -72,18 +72,18 @@ begin
     r_read_address <= "01";
     r_read_enable <= '1';   -- simultaneously, read what is in memory address 01
     r_write_data_valid <= '1';  -- signal to write
-    wait until r_clk = '1'; -- wait 1 clock cycle
+    wait until r_clk = '1'; -- wait until the next rising edge of the clock
     r_read_enable <= '0';
     r_write_data_valid <= '0';  -- signal to stop reading and writing
     wait until r_clk = '1';
     wait until r_clk = '1';
-    wait until r_clk = '1'; -- wait 3 clock cycles
+    wait until r_clk = '1'; -- wait until the 3rd rising edge of the clock from now
     r_read_enable <= '1';   -- signal to read
-    wait until r_clk = '1'; -- wait 1 clock cycle
+    wait until r_clk = '1'; -- wait until the next rising edge of the clock
     r_read_enable <= '0';   -- signal to stop reading
     wait until r_clk = '1';
     wait until r_clk = '1';
-    wait until r_clk = '1'; -- wait 3 clock cycles
+    wait until r_clk = '1'; -- wait until the 3rd rising edge of the clock from now
 
     finish;
   end process;
