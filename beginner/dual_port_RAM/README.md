@@ -54,7 +54,7 @@ The testbench verifies:
 
 The focus of simulation is **functional correctness**, not long-duration timing or throughput analysis.
 
-The waveforms below show a small simulation of the dual-port RAM being filled with incremental values, being read, then an attempted simultaneous read/write
+The waveforms below show a simulation of the dual-port RAM being filled with incremental values, being read, then an attempted simultaneous read/write
 at the end. For more detail, please see the comments in the testbench in /sim/testbench_dual_port_RAM.vhd
 
 ![Simulation waveform showing dual-port RAM read/write behavior](img/simulated_waveform.PNG)
