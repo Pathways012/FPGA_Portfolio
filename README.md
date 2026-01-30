@@ -13,6 +13,8 @@ verification, timing-aware implementation, and defense-relevant applications.
 The goal is to document projects progressing from foundational HDL concepts to
 signal processing and secure communications.
 
+The beginner projects are following along with the book "Getting Started with FPGAs: Digital Circuit Design, Verilog, and VHDL for Beginners", by Russell Merrick.
+
 ## Technical Focus Areas
 - RTL design in VHDL and Verilog
 - Synchronous digital design and FSMs
